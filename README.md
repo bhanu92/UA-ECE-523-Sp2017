@@ -3,4 +3,4 @@
 Repository for the contents of the University of Arizona's Engineering Applications of Machine Learning and Data Analytics Course
 
 # Contact 
-* [Gregory Ditzler](gregory.ditzler@gmail.com)
+* [Gregory Ditzler](http://gditzler.github.io/)
