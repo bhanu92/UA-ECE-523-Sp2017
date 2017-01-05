@@ -1,0 +1,73 @@
+\documentclass[12pt,fleqn]{article}
+
+\usepackage{amsmath}
+\usepackage{subfigure}
+\usepackage{amssymb}
+\usepackage{gregmath}
+\usepackage{cite}
+\usepackage{fancyhdr}
+\usepackage{url}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage[colorlinks=true]{hyperref}
+\graphicspath{{./figures/}}
+% Fourier for math | Utopia (scaled) for rm | Helvetica for ss | Latin Modern for tt
+\usepackage{fourier} % math & rm
+\usepackage[scaled=0.875]{helvet} % ss
+\renewcommand{\ttdefault}{lmtt} %tt
+
+
+\begin{document}
+
+
+\pagestyle{fancy}
+\lhead{Gregory Ditzler}
+\chead{\bfseries Dept. of ECE}
+\rhead{University of Arizona}
+\lfoot{\url{arizona.edu}}
+%\cfoot{  }
+\rfoot{\today}
+
+
+
+\begin{center}\Large
+{\bf ECE523 Engineering Applications of Machine Learning and Data Analytics \\}
+Title of the Lecture  
+\end{center}
+
+
+
+
+% ------------------------------------------------------
+\section{Introduction}
+
+
+% ------------------------------------------------------
+\section{Linear Algebra Notation \& Review}
+
+
+
+% ------------------------------------------------------
+\section{Probability Notation \& Review}
+There are many techniques in machine learning that rely on estimating how likely the occurrence of an event is. For instance, we often want to be able to determine predictive relationships; perhaps when event $A$ occurs, $B$ generally follows. Or, we might have a complicated model of a million possible events, and wish to simplify the model by allowing it to neglect the least likely events. Both of these scenarios rely on the fields of probability and statistics.
+
+
+
+% ------------------------------------------------------
+\section{A Review of Linear Regression}
+
+
+% ------------------------------------------------------
+\section*{Scribes}
+\begin{itemize}
+\item Gregory Ditzler (Sp '17)
+\end{itemize}
+
+%-------------------------------------------------------------------------
+\nocite{DorfBook}
+\bibliographystyle{ieeetr}
+\bibliography{greg_refs}
+
+
+\end{document}
