@@ -15,4 +15,4 @@ Your web browser will open with IPython then you can open the notebook.
 
 
 # Contact 
-* [Gregory Ditzler](http://gditzler.github.io/) [CV in Word](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+* [Gregory Ditzler](http://gditzler.github.io/) 
